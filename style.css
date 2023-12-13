@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#apiDataContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 30px;
+  padding-left: 90px;
+  gap: 20px;
+}
+img {
+  width: 300px;
+}
+header {
+  background-image: url("assets/Poster.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+}
+nav img:nth-child(1) {
+  width: 40px;
+  height: 40px;
+}
+.nav-head p {
+  margin-top: -35px;
+  margin-left: 60px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-head img {
+  margin-top: 20px;
+}
+.nav-end {
+  display: flex;
+}
+.nav-end p {
+  margin-top: 30px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-end img {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+nav p {
+  color: white;
+}
+.nav-end img {
+  width: 40px;
+  height: 40px;
+}
+#idk {
+  background: none;
+  border: 2px solid white;
+  color: white;
+  width: 500px;
+  height: 30px;
+  border-radius: 3px;
+  margin-top: 30px;
+  margin-left: -20%;
+  padding: 10px;
+}
+.head-ending {
+  padding-top: 100.69px;
+  padding-left: 128px;
+}
+.head-ending h1 {
+  color: white;
+  width: 30%;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: -20px;
+}
+.head-ending p:nth-child(3) {
+  margin-left: 50px;
+  margin-top: -30px;
+  color: white;
+}
+.head-ending img {
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+}
+.head-ending img:nth-child(2) {
+  margin-top: 40px;
+}
+.head-ending img:nth-child(4) {
+  margin-left: 160px;
+  margin-top: -40px;
+}
+.head-ending P:nth-child(5) {
+  color: white;
+  margin-left: 15%;
+  margin-top: -30px;
+}
+.head-ending p:nth-child(6) {
+  color: white;
+  width: 19%;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.head-ending button {
+  background-color: #be123c;
+  width: 150px;
+  height: 30px;
+  color: white;
+  text-transform: capitalize;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+}
+main section h1 {
+  font-size: 36px;
+  margin-top: 73.85px;
+  margin-left: 98px;
+  margin-bottom: 10px;
+}
